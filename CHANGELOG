@@ -1,0 +1,28 @@
+Routemap :
+- Better install script, copy css, js and image to the theme_dir,
+- code refactoring (still a lot to do),
+- proper integration of Citadels
+- admin pannel for DB update
+
+0.3.4
+
+- Citadel have been integrated, should work except for Service Slots,
+- moved code out of Subs.php modification (use of SMF integration_hooks),
+- moved the code outside of the "create_function" originaly used, it's easier to maintain now,
+- changing db_install.php to work with Serialized db for installation,
+- code refactoring,
+- DB has been prunned of unpublished modules/ships/charges,
+
+0.3.3 :
+
+- integrating Citadel DB Update,
+- correcting a bug where the SMF db_prefix was not correctly used,
+
+0.3.2 :
+
+- Corrected DB install script (removed MyISAM references),
+- Corrected DB install script (Name of Repeating Cannons),
+- Removed unused code in Subs.php,
+- Patch to allow Drones quantity to be present (x[1..5]),
+- Added SoE, Mordu's Legion ships,
+- Review of the whole DB to be sure that no items are missing or deprecated (Kronos Update),

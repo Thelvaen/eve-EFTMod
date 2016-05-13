@@ -1,0 +1,588 @@
+
+.fitting_tabs {
+    width: 100%;
+}
+ul.fit-tabs {
+    background-color: #000000;
+    display: block;
+    margin: 0;
+}
+li.fit-tab {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #454545;
+    border-color: #888888 #888888 -moz-use-text-color;
+    border-image: none;
+    border-style: solid solid none;
+    border-width: 1px 1px 0;
+    color: #CCCCCC;
+    display: block;
+    float: left;
+    list-style: none outside none;
+    margin: 0 2px;
+    padding: 8px;
+}
+#fittitle {
+    padding: 5px;
+    display: inline-block;
+}
+#shipicon {
+    height: 330px;
+    left: 58px;
+    position: absolute;
+    top: 57px;
+    width: 330px;
+    z-index: 0;
+}
+#shipicon img {
+        max-width: 100%;
+        border-radius:165px;
+        -webkit-border-radius:165px;
+        -moz-border-radius:165px;
+}
+#fittext {
+    background: url("../images/theme/quote.png") no-repeat scroll 0.1em 0.1em #505050;
+    border-color: #888888 #888888 #BD9851;
+    border-style: solid solid dashed;
+    border-width: 2px 2px 1px;
+    color: #CCCCCC;
+    font-size: x-small;
+    height: 100%;
+    line-height: 1.4em;
+    overflow: auto;
+    padding: 1.1em 1.4em;
+    position: relative;
+    width: 400px;
+}
+#fittext textarea {
+    background: none repeat scroll 0 0 #000000;
+    color: #FFFFFF;
+    font-size: 12px;
+}
+#fitting {
+    background-color: #505050;
+    border-color: #888888 #888888 #BD9851;
+    border-style: solid solid dashed;
+    border-width: 2px 2px 1px;
+    height: 441px;
+    position: relative;
+    width: 495px;
+}
+#fittingwindow {
+    height: 443px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 495px;
+    z-index: 1;
+}
+#fittingwindow img {
+    height: 440px;
+    position: absolute;
+    width: 495px;
+}
+#hiPower1 {
+    height: 32px;
+    left: 104px;
+    position: absolute;
+    top: 59px;
+    width: 32px;
+    z-index: 1;
+}
+#hiPower2 {
+    height: 32px;
+    left: 132px;
+    position: absolute;
+    top: 43px;
+    width: 32px;
+    z-index: 1;
+}
+#hiPower3 {
+    height: 32px;
+    left: 161px;
+    position: absolute;
+    top: 32px;
+    width: 32px;
+    z-index: 1;
+}
+#hiPower4 {
+    height: 32px;
+    left: 192px;
+    position: absolute;
+    top: 27px;
+    width: 32px;
+    z-index: 1;
+}
+#hiPower5 {
+    height: 32px;
+    left: 223px;
+    position: absolute;
+    top: 27px;
+    width: 32px;
+    z-index: 1;
+}
+#hiPower6 {
+    height: 32px;
+    left: 254px;
+    position: absolute;
+    top: 32px;
+    width: 32px;
+    z-index: 1;
+}
+#hiPower7 {
+    height: 32px;
+    left: 284px;
+    position: absolute;
+    top: 43px;
+    width: 32px;
+    z-index: 1;
+}
+#hiPower8 {
+    height: 32px;
+    left: 310px;
+    position: absolute;
+    top: 58px;
+    width: 32px;
+    z-index: 1;
+}
+#medPower1 {
+    height: 32px;
+    left: 357px;
+    position: absolute;
+    top: 102px;
+    width: 32px;
+    z-index: 1;
+}
+#medPower2 {
+    height: 32px;
+    left: 373px;
+    position: absolute;
+    top: 130px;
+    width: 32px;
+    z-index: 1;
+}
+#medPower3 {
+    height: 32px;
+    left: 381px;
+    position: absolute;
+    top: 161px;
+    width: 32px;
+    z-index: 1;
+}
+#medPower4 {
+    height: 32px;
+    left: 386px;
+    position: absolute;
+    top: 192px;
+    width: 32px;
+    z-index: 1;
+}
+#medPower5 {
+    height: 32px;
+    left: 386px;
+    position: absolute;
+    top: 224px;
+    width: 32px;
+    z-index: 1;
+}
+#medPower6 {
+    height: 32px;
+    left: 381px;
+    position: absolute;
+    top: 255px;
+    width: 32px;
+    z-index: 1;
+}
+#medPower7 {
+    height: 32px;
+    left: 370px;
+    position: absolute;
+    top: 285px;
+    width: 32px;
+    z-index: 1;
+}
+#medPower8 {
+    height: 32px;
+    left: 355px;
+    position: absolute;
+    top: 311px;
+    width: 32px;
+    z-index: 1;
+}
+#loPower1 {
+    height: 32px;
+    left: 311px;
+    position: absolute;
+    top: 353px;
+    width: 32px;
+    z-index: 1;
+}
+#loPower2 {
+    height: 32px;
+    left: 284px;
+    position: absolute;
+    top: 370px;
+    width: 32px;
+    z-index: 1;
+}
+#loPower3 {
+    height: 32px;
+    left: 255px;
+    position: absolute;
+    top: 381px;
+    width: 32px;
+    z-index: 1;
+}
+#loPower4 {
+    height: 32px;
+    left: 223px;
+    position: absolute;
+    top: 386px;
+    width: 32px;
+    z-index: 1;
+}
+#loPower5 {
+    height: 32px;
+    left: 192px;
+    position: absolute;
+    top: 386px;
+    width: 32px;
+    z-index: 1;
+}
+#loPower6 {
+    height: 32px;
+    left: 161px;
+    position: absolute;
+    top: 380px;
+    width: 32px;
+    z-index: 1;
+}
+#loPower7 {
+    height: 32px;
+    left: 132px;
+    position: absolute;
+    top: 370px;
+    width: 32px;
+    z-index: 1;
+}
+#loPower8 {
+    height: 32px;
+    left: 103px;
+    position: absolute;
+    top: 353px;
+    width: 32px;
+    z-index: 1;
+}
+#rigSlot1 {
+    height: 32px;
+    left: 36px;
+    position: absolute;
+    top: 153px;
+    width: 32px;
+    z-index: 1;
+}
+#rigSlot2 {
+    height: 32px;
+    left: 47px;
+    position: absolute;
+    top: 123px;
+    width: 32px;
+    z-index: 1;
+}
+#rigSlot3 {
+    height: 32px;
+    left: 66px;
+    position: absolute;
+    top: 95px;
+    width: 32px;
+    z-index: 1;
+}
+#SubSystem1 {
+    height: 32px;
+    left: 66px;
+    position: absolute;
+    top: 318px;
+    width: 32px;
+    z-index: 1;
+}
+#SubSystem2 {
+    height: 32px;
+    left: 49px;
+    position: absolute;
+    top: 289px;
+    width: 32px;
+    z-index: 1;
+}
+#SubSystem3 {
+    height: 32px;
+    left: 37px;
+    position: absolute;
+    top: 260px;
+    width: 32px;
+    z-index: 1;
+}
+#SubSystem4 {
+    height: 32px;
+    left: 29px;
+    position: absolute;
+    top: 228px;
+    width: 32px;
+    z-index: 1;
+}
+#SubSystem5 {
+    height: 32px;
+    left: 29px;
+    position: absolute;
+    top: 196px;
+    width: 32px;
+    z-index: 1;
+}
+#Drone1 {
+    height: 32px;
+    left: 446px;
+    position: absolute;
+    top: 133px;
+    width: 32px;
+    z-index: 1;
+}
+#Drone2 {
+    height: 32px;
+    left: 446px;
+    position: absolute;
+    top: 170px;
+    width: 32px;
+    z-index: 1;
+}
+#Drone3 {
+    height: 32px;
+    left: 446px;
+    position: absolute;
+    top: 207px;
+    width: 32px;
+    z-index: 1;
+}
+#Drone4 {
+    height: 32px;
+    left: 446px;
+    position: absolute;
+    top: 244px;
+    width: 32px;
+    z-index: 1;
+}
+#Drone5, #Drone6, #Drone7, #Drone8, #Drone9, #Drone10 {
+display:none
+}
+#hiPowercharge1 {
+    height: 24px;
+    left: 130px;
+    position: absolute;
+    top: 91px;
+    width: 24px;
+    z-index: 1;
+}
+#hiPowercharge2 {
+    height: 24px;
+    left: 152px;
+    position: absolute;
+    top: 78px;
+    width: 24px;
+    z-index: 1;
+}
+#hiPowercharge3 {
+    height: 24px;
+    left: 174px;
+    position: absolute;
+    top: 69px;
+    width: 24px;
+    z-index: 1;
+}
+#hiPowercharge4 {
+    height: 24px;
+    left: 200px;
+    position: absolute;
+    top: 66px;
+    width: 24px;
+    z-index: 1;
+}
+#hiPowercharge5 {
+    height: 24px;
+    left: 225px;
+    position: absolute;
+    top: 66px;
+    width: 24px;
+    z-index: 1;
+}
+#hiPowercharge6 {
+    height: 24px;
+    left: 249px;
+    position: absolute;
+    top: 69px;
+    width: 24px;
+    z-index: 1;
+}
+#hiPowercharge7 {
+    height: 24px;
+    left: 272px;
+    position: absolute;
+    top: 78px;
+    width: 24px;
+    z-index: 1;
+}
+#hiPowercharge8 {
+    height: 24px;
+    left: 295px;
+    position: absolute;
+    top: 91px;
+    width: 24px;
+    z-index: 1;
+}
+#medPowercharge1 {
+    height: 24px;
+    left: 330px;
+    position: absolute;
+    top: 123px;
+    width: 24px;
+    z-index: 1;
+}
+#medPowercharge2 {
+    height: 24px;
+    left: 341px;
+    position: absolute;
+    top: 147px;
+    width: 24px;
+    z-index: 1;
+}
+#medPowercharge3 {
+    height: 24px;
+    left: 349px;
+    position: absolute;
+    top: 171px;
+    width: 24px;
+    z-index: 1;
+}
+#medPowercharge4 {
+    height: 24px;
+    left: 355px;
+    position: absolute;
+    top: 197px;
+    width: 24px;
+    z-index: 1;
+}
+#medPowercharge5 {
+    height: 24px;
+    left: 355px;
+    position: absolute;
+    top: 222px;
+    width: 24px;
+    z-index: 1;
+}
+#medPowercharge6 {
+    height: 24px;
+    left: 349px;
+    position: absolute;
+    top: 246px;
+    width: 24px;
+    z-index: 1;
+}
+#medPowercharge7 {
+    height: 24px;
+    left: 341px;
+    position: absolute;
+    top: 270px;
+    width: 24px;
+    z-index: 1;
+}
+#medPowercharge8 {
+    height: 24px;
+    left: 330px;
+    position: absolute;
+    top: 294px;
+    width: 24px;
+    z-index: 1;
+}
+#loPowercharge1 {
+    height: 24px;
+    left: 294px;
+    position: absolute;
+    top: 332px;
+    width: 24px;
+    z-index: 1;
+}
+#loPowercharge2 {
+    height: 24px;
+    left: 270px;
+    position: absolute;
+    top: 344px;
+    width: 24px;
+    z-index: 1;
+}
+#loPowercharge3 {
+    height: 24px;
+    left: 246px;
+    position: absolute;
+    top: 353px;
+    width: 24px;
+    z-index: 1;
+}
+#loPowercharge4 {
+    height: 24px;
+    left: 222px;
+    position: absolute;
+    top: 358px;
+    width: 24px;
+    z-index: 1;
+}
+#loPowercharge5 {
+    height: 24px;
+    left: 198px;
+    position: absolute;
+    top: 358px;
+    width: 24px;
+    z-index: 1;
+}
+#loPowercharge6 {
+    height: 24px;
+    left: 174px;
+    position: absolute;
+    top: 353px;
+    width: 24px;
+    z-index: 1;
+}
+#loPowercharge7 {
+    height: 24px;
+    left: 150px;
+    position: absolute;
+    top: 344px;
+    width: 24px;
+    z-index: 1;
+}
+#loPowercharge8 {
+    height: 24px;
+    left: 126px;
+    position: absolute;
+    top: 332px;
+    width: 24px;
+    z-index: 1;
+}
+#hiPowercharge1 img, #hiPowercharge2 img, #hiPowercharge3 img, #hiPowercharge4 img, #hiPowercharge5 img, #hiPowercharge6 img, #hiPowercharge7 img, #hiPowercharge8 img, #medPowercharge1 img, #medPowercharge2 img, #medPowercharge3 img, #medPowercharge4 img, #medPowercharge5 img, #medPowercharge6 img, #medPowercharge7 img, #medPowercharge8 img, #loPowercharge1 img, #loPowercharge2 img, #loPowercharge3 img, #loPowercharge4 img, #loPowercharge5 img, #loPowercharge6 img, #loPowercharge7 img, #loPowercharge8 img {
+    height: 24px;
+    width: 24px;
+}
+#top #shipicon img {
+    max-width: 100%;
+}
+
+.fitbox {
+}
+
+.expand{
+display:inline-block;
+height:15px;
+width:15px;
+background:url("../images/expand.gif");
+}
+.expand.expanded{
+  background:url("../images/collapse.gif");
+}
